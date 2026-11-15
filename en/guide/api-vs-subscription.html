@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pay-per-token or monthly: where the crossover actually is | aiprice</title>
+<meta name="description" content="A concrete arithmetic check using realistic token prices.">
+<link rel="canonical" href="https://hgai1.github.io/aiprice/en/guide/api-vs-subscription.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pay-per-token or monthly: where the crossover actually is | aiprice">
+<meta property="og:description" content="A concrete arithmetic check using realistic token prices.">
+<meta property="og:url" content="https://hgai1.github.io/aiprice/en/guide/api-vs-subscription.html">
+<meta name="theme-color" content="#0b0d11">
+<link rel="stylesheet" href="https://hgai1.github.io/aiprice/assets/style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="https://hgai1.github.io/aiprice/">ai<span>price</span></a>
+<nav class="top"><a href="https://hgai1.github.io/aiprice/en/c/chatgpt.html">ChatGPT</a><a href="https://hgai1.github.io/aiprice/en/c/claude.html">Claude</a><a href="https://hgai1.github.io/aiprice/en/c/gemini.html">Gemini</a><a href="https://hgai1.github.io/aiprice/en/products.html">All products</a><a href="https://hgai1.github.io/aiprice/en/guides.html">Guides</a><a href="https://hgai1.github.io/aiprice/index.html">中文</a></nav>
+</div></header>
+<main><div class="wrap" style="max-width:780px">
+<div class="crumb"><a href="https://hgai1.github.io/aiprice/en/guides.html">Guides</a> / Pay-per-token or monthly: where the cro…</div>
+<h1 style="font-size:clamp(24px,3.6vw,34px);letter-spacing:-.02em;line-height:1.25;margin:6px 0 16px">Pay-per-token or monthly: where the crossover actually is</h1>
+<p style="color:var(--muted);font-size:14px">aiprice · snapshot 2026-11-15 15:43 UTC</p>
+<article><p>Subscriptions are flat-rate with soft caps; APIs bill per token. The crossover depends on daily volume, not on how busy you feel.</p>
+<h3>The arithmetic</h3>
+<p>Assume $2/M input and $8/M output tokens — a typical mid-tier model. A 2,000-word exchange round trip costs roughly $0.02. Fifty exchanges a day is about $1/day, or $30/month — already above a $20 subscription.</p>
+<p>Ten exchanges a day is about $6/month. At that volume the API is simply cheaper.</p>
+<h3>Where APIs win beyond price</h3>
+<ul class="list-clean">
+<li>Embedding the model in your own tools and batch jobs</li>
+<li>No peak-hour model downgrades</li>
+<li>Routing cheap tasks to cheap models</li>
+</ul>
+<h3>The hidden cost</h3>
+<p>Context trimming, retries, rate limits and logging are yours to build. Interactive use belongs on a subscription; batch and product-integrated use belongs on the API.</p></article>
+<div class="cta-row">
+<a class="btn" href="https://aiprice.io/stock/?ch=gh-guide">Browse live prices</a>
+<a class="btn ghost" href="https://hgai1.github.io/aiprice/en/guides.html">All guides</a>
+</div>
+</div></main>
+<footer class="site"><div class="wrap">
+<span>aiprice · AI subscription &amp; API price radar</span>
+<a href="https://aiprice.io/?ch=gh-en">Live prices → aiprice.io</a>
+<a href="https://hgai1.github.io/aiprice/about.html">About</a>
+<span>Snapshot 2026-11-15 15:43 UTC</span>
+</div></footer>
+</body>
+</html>
